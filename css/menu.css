@@ -1,0 +1,213 @@
+/* Additional CSS to the menu page  */
+
+.pop{
+    width: 1vw;
+    height: 1vw;
+    border-radius: 1vw;
+    position: relative;
+    background-color: #f3ec04;
+    animation-name: popp;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes popp{
+    0% {
+        background-color: #f3ec04;
+        left: 5vw;
+        top: 0px;
+    }
+    15% {
+        background-color: #be360d;
+        left: 95vw;
+        top: 0px;
+    }
+    60% {
+        background-color: green;
+        left: 95vw;
+        top: 500vw;
+    }
+    85% {
+        background-color: blue;
+        left: 5vw;
+        top: 500vw;
+    }
+    100% {
+        background-color: yellow;
+        left: 1vw;
+        top: 0vw;
+    }
+}
+.topnav {
+    background-color: transparent;
+    width: 33vw;
+    position: absolute;
+    left: 60vw;
+    top: 2vw;
+}
+.hr2 {
+    width: 10vw;
+    background-color: transparent;
+    border: 2px solid #f3ec04;
+    margin: 0vw 0vw 6vw 45vw;
+    border-radius: 2vw;
+    animation-name: hr2;
+    position: relative;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes hr2{
+    0%{
+        top: 0vw;
+    }
+    6%{
+        top: 3vw;
+    }
+    12%{
+        top: 0vw;
+    }
+    100%{
+        top: 0vw;
+    }
+
+}
+.varie {
+    text-align: center;
+    width: 12vw;
+    display: inline-table;
+    margin: 1vw 4vw;
+    padding: 1vw;
+    border: 0.1vw solid #f3ec04;
+    border-radius: 1vw;
+    font-size: 1.2vw;
+    font-family: cursive;
+}
+.variee{
+    text-decoration: none;
+}
+.menucont {
+    width: 100vw;
+    display: table;
+    text-align: center;
+}
+.fooddd {
+    text-align: center;
+    font-size: 2.2vw;
+    margin-top: 7vw;
+    color: #ffeb3b;
+    text-shadow: 0px 0px 20px #b2d56dba;
+    text-decoration: underline;
+    text-decoration-color: #23bf2769;
+}
+.itemssection1 {
+    display: flex;
+    width: 80vw;
+    margin: 0vw 0vw 0vw 10vw;
+}
+.itemsection2 {
+    display: flex;
+    width: 80vw;
+    margin: 0vw 0vw 0vw 10vw;
+}
+.veglogo {
+    width: 1.6vw;
+    margin: 0vw 1vw -0.2vw 10vw;
+}
+.vegtext {
+    margin: 3vw 0vw 0vw;
+}
+.vegtxt {
+    font-size: 1.7vw;
+    color: #378c3b;
+}
+.hr3 {
+    width: 9vw;
+    border: solid 0.000001vw #ffeb3b;
+    position: relative;
+    right: 35.3vw;
+    margin-bottom: 7vw;
+
+}
+
+.item {
+    height: 20vw;
+    margin: 1vw;
+    text-align: -webkit-center;
+    border-radius: 2vw;
+}
+.item:hover {
+    height: 20vw;
+    margin: 1vw;
+    border: solid 0.001vw #403c3c52;
+    box-shadow: 0 0 13px 9px #3e3b3b63;
+    text-align: -webkit-center;
+    border-radius: 2vw;
+}
+
+.nonveglogo {
+    width: 1.6vw;
+    margin: 0vw 1vw -0.2vw 10vw;
+}
+.nonvegtext {
+    margin: 7vw 0vw 0vw;
+}
+.nonvegtxt {
+    font-size: 1.7vw;
+    color: #be360d;
+}
+.hr4 {
+    width: 9vw;
+    border: solid 0.000001vw #ffeb3b;
+    position: relative;
+    right: 35.3vw;
+    margin-bottom: 7vw;
+}
+.burger{
+    width: 16vw;
+    border-radius: 2vw;
+    margin-top: 1vw;
+
+}
+.burgertxt {
+    width: 10.8vw;
+    font-family: cursive;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.burgertxt1, .burgertxt2, .burgertxt3, .burgertxt4, .burgertxt5, .burgertxt6, .burgertxt7, .burgertxt8{
+    color: #a8ff59;
+}
+.burgertxt1 {
+    margin-top: 0vw;
+}
+.burgertxt5 {
+    margin-top: 0vw;
+}
+.burgertxt13 {
+    margin-top: 0vw;
+}
+.burgertxt9, .burgertxt10, .burgertxt11, .burgertxt12, .burgertxt13, .burgertxt14, .burgertxt15, .burgertxt16{
+    color: rgb(255 149 149);
+}
+.snacksss {
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+}
+.saladdd {
+    margin-bottom: 8vw;
+}
+.snack1, .snack2, .snack3, .snack4, .snack5, .snack6, .snack7, .snack8{
+    color: #ffda72;
+}
+.saladtxt2 {
+    margin-top: 2.5vw;
+}
+.saladtxt1, .saladtxt2, .saladtxt3, .saladtxt4{
+    color: #3aff44;
+}
+.beveragesss {
+    margin-bottom: 8vw;
+}
+.drink1, .drink2, .drink3, .drink4, .drink5, .drink6, .drink7, .drink8{
+    color: #67dcff;
+}
